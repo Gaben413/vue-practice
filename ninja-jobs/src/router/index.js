@@ -25,7 +25,7 @@ const routes = [
     path: '/jobs/:id',
     name: 'JobDetails',
     component: JobDetails,
-    pops: true
+    props: true
   },
   //redirect
   {
